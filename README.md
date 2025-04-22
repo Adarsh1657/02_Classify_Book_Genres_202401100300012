@@ -1,5 +1,5 @@
 Genre Classification Using Random Forest
-🧠 Objective
+Objective:-
 The objective of this project is to classify books into genres using metadata features such as:
 
 Author Popularity
@@ -10,7 +10,7 @@ Number of Keywords
 
 We applied a Random Forest Classifier to build the prediction model.
 
-📂 Dataset
+Dataset:-
 Source: book_genres.csv
 
 Features used:
@@ -23,7 +23,7 @@ num_keywords – Number of descriptive keywords
 
 Target variable: genre – The category/genre of the book
 
-🔍 Methodology
+Methodology:-
 1. Data Preparation
 Loaded the dataset using pandas
 
@@ -51,7 +51,7 @@ Recall (macro average)
 
 Classification Report
 
-📊 Results
+Results:-
 Confusion Matrix Heatmap
 
 The actual image is generated in code output.
@@ -71,7 +71,7 @@ Edit
 {{ report }}
 Include the printed classification report from your code output here.
 
-✅ Conclusion
+Conclusion:-
 The Random Forest model was effective in classifying genres based on limited metadata.
 
 The confusion matrix revealed where misclassifications occurred.
