@@ -23,6 +23,12 @@ num_keywords – Number of descriptive keywords
 
 Target variable: genre – The category/genre of the book
 
+Model and Method
+Algorithm: Random Forest Classifier
+Data split: 80% training, 20% testing
+Evaluation Metrics: Accuracy, Precision (macro), Recall (macro), F1-score, Confusion Matrix
+
+
 Methodology:-
 1. Data Preparation
 Loaded the dataset using pandas
